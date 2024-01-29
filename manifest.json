@@ -1,0 +1,26 @@
+{
+    "manifest_version": 4,
+    "type": "framework",
+    "name": "NSQQ",
+    "slug": "NSQQ",
+    "description": "NSQQ",
+    "version": "1.1.6",
+    "authors": [
+        {
+            "name": "Night-stars-1",
+            "link": "https://github.com/Night-stars-1"
+        }
+    ],
+    "repository": {
+        "repo": "Night-stars-1/LiteLoaderQQNT-Plugin-LLAPI",
+        "branch": "main"
+    },
+    "platform": [
+        "win32",
+        "linux",
+        "darwin"
+    ],
+    "injects": {
+        "main": "./src/index.js"
+    }
+}
